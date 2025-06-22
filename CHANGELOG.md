@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.2.0...v1.2.1) (2025-06-22)
+
+
+### Bug Fixes
+
+* added the short logo image and fixed the readme.md structure for logo ([9de90b2](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/9de90b2ec5d93b4900858cce292ae3b83a4d8c8e))
+
 ## [1.2.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.1.0...v1.2.0) (2025-06-22)
 
 
