@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.1.0...v1.2.0) (2025-06-22)
+
+
+### Features
+
+* made change to the structure and populated the readme file ([30806a3](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/30806a3b9c7052fb1b3ba7b8954977a9de3118c5))
+
 ## [1.1.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.0.0...v1.1.0) (2025-06-22)
 
 
