@@ -1,7 +1,7 @@
-# Aegis.API-Gateway.Design Repository
+# Aegis API-Gateway Design Repository
 
 <p align="center"> 
-    <img src="./diagrams/logo/Aegis API Gateway Logo.png"/>
+    <img src="./diagrams/logo/Aegis API Gateway Logo Short.jpeg"/>
 </p>
 
 ---
@@ -42,7 +42,8 @@ This repository holds all **Design Documents** related to the **Aegis API Gatewa
 │   |   ├── high-level.png              
 │   |   ├── sequence-diagram.png                 
 |   └── logo/                                    
-│       └── system-context.design.png
+│       ├── Aegis API Gateway Logo Short.jpeg
+│       └── Aegis API Gateway Logo.png
 ├── references/                                   
 |   └── research.md
 ├── specs/                                   
