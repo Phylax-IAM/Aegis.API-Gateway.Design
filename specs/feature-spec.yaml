@@ -1,0 +1,77 @@
+gateway:
+  name: Aegis API gateway
+  version: 1.0.0
+  description: Feature specification for the Aegis API Gateway. This config helps enable/disable and tune core gateway features.
+  enabled: true
+
+features:
+
+  routing:
+    enabled: true
+    strategy:
+      - path_based
+      - header_based
+    fallback_route: /fallback
+    description: Route requests based on path or headers
+
+  ssl_termination:
+    enabled: true
+    tls_versions:
+      - TLSv1.2
+      - TLSv1.3
+    cert_path: /etc/certs/aegis.crt
+    key_path: /etc/certs/aegis.key
+    description: TLS/SSL termination at the gateway layer
+
+  rate_limiting:
+    enabled: true
+    strategy: token_bucket
+    default:
+      requests_per_second: 100
+      burst_capacity: 200
+    overrides:
+      "/auth/login":
+        requests_per_second: 10
+        burst_capacity: 20
+    description: Limit the number of incoming requests to prevent abuse
+
+  throttling:
+    enabled: true
+    max_concurrent_requests: 1000
+    queue_timeout_ns: 200
+    description: Protect backend services from overload
+  
+  caching:
+    enabled: true
+    cache_type: in_memory
+    ttl_seconds: 60
+    cacheable_paths: 
+      - /api/public/*
+    description: Cache GET requests to improve latency and reduce load
+  
+  header_modification:
+    enabled: true
+    add_header:
+      X-Gateway-Version: "1.0.0"
+      X-Trace-ID: "{trace_id}"
+    remove_headers:
+      - X-Internal-Token
+    description: Dynamically add or remove headers
+  
+  tracer_injection:
+    enabled: true
+    propagation_format: W3C
+    header_name: X-Trace-ID
+    description: Inject tracing headers for distributed tracing
+  
+  observability:
+    logging:
+      enabled: true
+      level: info
+      type: notification
+      to: notification-queue
+    description: Enable observability for metrics, log, and traces
+
+metadata:
+  generated_at: 2025-06-23
+  author: Pragyanshu Rai
