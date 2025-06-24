@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.3.0...v1.3.1) (2025-06-24)
+
+
+### Bug Fixes
+
+* added the configurations to the config-spec file ([fb12a77](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/fb12a77dc1edaec50f6365d281a0f9aaa16e8d80))
+
 ## [1.3.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.2.1...v1.3.0) (2025-06-23)
 
 
