@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.4.0...v1.5.0) (2025-06-28)
+
+
+### Features
+
+* added ADR files to the documentation ([d645622](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/d645622828410274288972047ba5f440f525a792))
+
 ## [1.4.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.3.1...v1.4.0) (2025-06-28)
 
 
