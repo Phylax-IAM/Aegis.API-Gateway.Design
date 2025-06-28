@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v2.1.0...v2.2.0) (2025-06-28)
+
+
+### Features
+
+* added the research.md file to the documentation ([7aac158](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/7aac158d55457afe49cb9bcd64a5bcd0355616fc))
+
 ## [2.1.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v2.0.0...v2.1.0) (2025-06-28)
 
 
