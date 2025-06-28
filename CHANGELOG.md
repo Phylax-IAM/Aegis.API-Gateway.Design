@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.6.0...v1.7.0) (2025-06-28)
+
+
+### Features
+
+* added the component diagrams to the documentations ([bfa00b4](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/bfa00b4f15b9cb0af9b950a9ac365163923fbbe2))
+
 ## [1.6.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.5.0...v1.6.0) (2025-06-28)
 
 
