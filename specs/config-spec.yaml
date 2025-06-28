@@ -1,18 +1,16 @@
 gateway:
   name: Aegis API Gateway
   environment: production
-  listen: # either have http or https not both if both are there https will be given preference, 
-          # and if ssl is not enabled then port will fall back to http
+  listen:
     http: 8080
     https: 8443
   base_path: /api
   upstream_timeout_ms: 5000
 
-ssl: # this is optional and only required if https port is selected
+ssl:
   enabled: true
   cert_file: /etc/certs/aegis.crt
   key_file: /etc/keys/aegis.key
-  truststore_path: /etc/certs/truststore.jks
   tls_versions:
     - TLSv1.2
     - TLSv1.3
@@ -24,10 +22,6 @@ routes:
         path: /auth/**
       forward_to: http://auth-service:9000
     - match:
-        header:
-          X-Service: profile
-      forward_to: http://profile-service:8080
-    - match:
         path: /static/**
       forward_to: http://static-cdn:8081
 
@@ -36,7 +30,6 @@ rate_limiting:
     enabled: true
     requests_per_second: 100
     burst_capacity: 200
-    method: token bucket # Optional and default
 
 throttling:
   enabled: true
@@ -45,12 +38,9 @@ throttling:
 
 caching:
   enabled: true
-  method: write through # Optional and default
   rules:
     - path: /public/**
-      ttl_seconds: 120
-    - path: /health
-      ttl_seconds: 5  
+      ttl_seconds: 60
 
 header_modification:
   add:
@@ -62,15 +52,14 @@ header_modification:
 logging:
   level: INFO
   format: json
-  file: /var/log/aegis/gateway.log
 
 tracing:
   enabled: true
   format: w3c
   trace_id_header: X-Trace-ID
   exporter:
-    type: hermes-notification
-    endpoint: http://hermes-notification:14268/api/traces
+    type: jaeger
+    endpoint: http://jaeger-collector:14268/api/traces
 
 health:
   endpoints:
