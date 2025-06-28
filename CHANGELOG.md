@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.3.1...v1.4.0) (2025-06-28)
+
+
+### Features
+
+* created and added funtional-requirements, config and feature spec files ([2e91f38](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/2e91f38a5ec31cb624f50afd0ff7148848bb0736))
+
 ## [1.3.1](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.3.0...v1.3.1) (2025-06-24)
 
 
