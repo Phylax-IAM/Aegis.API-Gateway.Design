@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.7.0...v2.0.0) (2025-06-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed the sequence diagram
+
+### Features
+
+* removed the sequence diagram ([57551d3](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/57551d3ba807fcb92b95941a48721b99781e0be6))
+
 ## [1.7.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.6.0...v1.7.0) (2025-06-28)
 
 
