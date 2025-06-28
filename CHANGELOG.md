@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v2.0.0...v2.1.0) (2025-06-28)
+
+
+### Features
+
+* added system design and deployment strategy to the documentation ([8218442](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/82184425b4a58b8635dc1bd50f3d91880a357057))
+
 ## [2.0.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.7.0...v2.0.0) (2025-06-28)
 
 
