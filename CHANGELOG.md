@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.5.0...v1.6.0) (2025-06-28)
+
+
+### Features
+
+* created and added high level design to the documentation ([45074ed](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/commit/45074ed6453121c2cfb0bca472f76a232c994049))
+
 ## [1.5.0](https://github.com/Phylax-IAM/Aegis.API-Gateway.Design/compare/v1.4.0...v1.5.0) (2025-06-28)
 
 
