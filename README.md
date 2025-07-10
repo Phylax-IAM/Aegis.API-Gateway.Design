@@ -18,7 +18,7 @@ This repository holds all **Design Documents** related to the **Aegis API Gatewa
 - High-level architecture, sequence and component diagrams  
 - Configurations and features specifications  
 - Data models, sequence diagrams, and security flows
-- Start looking here: [System Design Document](./system-design.md)  
+- Start looking here: [System Design Document](./system.design.md)  
 
 ---
 
